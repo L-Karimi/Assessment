@@ -1,14 +1,15 @@
 fun main() {
-    string( )
+    string()
 
     numbers()
     sentence()
     output()
 }
-fun string(school:String): String {
-var name = school.get(4)+ school.get(5).toString() +school.get(6)+ school.get(7)
-    return  name
-   println(name)
+fun string() {
+    var school = "codeHive"
+ school = school.get(4)+ school.get(5).toString() +school.get(6)+ school.get(7)
+//    return  school
+   println(school)
 
 }
 fun numbers(){
